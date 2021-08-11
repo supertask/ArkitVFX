@@ -1,15 +1,28 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "Unity NuGet",
+      "url": "https://unitynuget-registry.azurewebsites.net",
+      "scopes": [ "org.nuget" ]
+    },
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ],
   "dependencies": {
-    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.2.5",
-    "com.github.asus4.mediapipe": "https://github.com/asus4/tf-lite-unity-sample.git?path=/Packages/com.github.asus4.mediapipe",
-    "com.github.asus4.tflite": "https://github.com/asus4/tf-lite-unity-sample.git?path=/Packages/com.github.asus4.tflite",
-    "com.github.asus4.tflite.common": "https://github.com/asus4/tf-lite-unity-sample.git?path=/Packages/com.github.asus4.tflite.common",
+    "jp.keijiro.beta": "1.0.2",
+    "jp.keijiro.cmu-mocap": "1.0.0",
+    "jp.keijiro.lasp": "2.1.4",
+
     "com.unity.collab-proxy": "1.7.1",
     "com.unity.ide.rider": "3.0.7",
     "com.unity.ide.visualstudio": "2.0.9",
     "com.unity.ide.vscode": "1.2.3",
     "com.unity.inputsystem": "1.0.2",
-    "com.unity.mathematics": "1.2.1",
     "com.unity.multiplayer-hlapi": "1.1.1",
     "com.unity.render-pipelines.universal": "11.0.0",
     "com.unity.test-framework": "1.1.27",
