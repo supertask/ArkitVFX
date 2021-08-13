@@ -8,9 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ARFoundationSamples/Scenes/SimpleAR/SimpleAR.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Test/HumanVFX/HumanVFX.unity
+  - enabled: 0
+    path: Assets/Test/HumanVFX/Scenes/HumanVFX.unity
     guid: c803af90e82e51941858ffacfeff8741
+  - enabled: 1
+    path: Assets/Test/HumanVFX/Scenes/TrackingBeta.unity
+    guid: bbe3dede072fd42dba8f3aad211de71a
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 07f7b3858b2904dfa8b02399acccbe44,
+      type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 6ad2eef7d527d404b99b67feff25c0e9,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fe04dc93665904cc6b35c7cc412f5596,
       type: 2}

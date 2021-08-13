@@ -994,10 +994,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -846.9998779296875,
+            "x": -847.0,
             "y": -163.0,
-            "width": 207.99998474121095,
-            "height": 103.99999237060547
+            "width": 208.00001525878907,
+            "height": 104.00000762939453
         }
     },
     "m_Slots": [
@@ -1015,22 +1015,22 @@
     "m_Value": 0.0,
     "m_SerializableColorKeys": [
         {
-            "x": 3.215686321258545,
-            "y": 2.43137264251709,
-            "z": 1.443137288093567,
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0,
             "w": 0.0
         },
         {
-            "x": 2.447058916091919,
-            "y": 1.0666667222976685,
+            "x": 1.0,
+            "y": 0.5766368508338928,
             "z": 0.0,
-            "w": 0.1579003632068634
+            "w": 0.43823909759521487
         },
         {
-            "x": 0.8301886916160584,
-            "y": 0.10518226772546768,
+            "x": 1.0,
+            "y": 1.0,
             "z": 0.0,
-            "w": 0.3450217545032501
+            "w": 0.6941176652908325
         }
     ],
     "m_SerializableAlphaKeys": [
@@ -2219,8 +2219,6 @@
         "m_GuidSerialized": "44a78fe6-65a3-4b0e-98f1-491096488947"
     },
     "m_Name": "AudioTex",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "AudioTex",
     "m_DefaultReferenceName": "AudioTex",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
