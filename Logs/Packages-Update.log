@@ -62,3 +62,14 @@ The following packages were updated:
   com.unity.visualeffectgraph from version 7.7.1 to 11.0.0
   com.unity.xr.arfoundation from version 2.1.18 to 4.1.7
   com.unity.xr.arkit from version 2.1.18 to 4.1.7
+
+=== Fri Aug 13 19:53:39 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.rider from version 2.0.7 to 3.0.7
+  com.unity.render-pipelines.universal from version 10.5.1 to 11.0.0
+  com.unity.shadergraph from version 10.5.1 to 11.0.0
+  com.unity.visualeffectgraph from version 10.5.1 to 11.0.0

@@ -1016,21 +1016,15 @@
     "m_SerializableColorKeys": [
         {
             "x": 1.0,
-            "y": 0.0,
-            "z": 0.0,
+            "y": 1.0,
+            "z": 1.0,
             "w": 0.0
         },
         {
             "x": 1.0,
-            "y": 0.5766368508338928,
-            "z": 0.0,
-            "w": 0.43823909759521487
-        },
-        {
-            "x": 1.0,
             "y": 1.0,
-            "z": 0.0,
-            "w": 0.6941176652908325
+            "z": 1.0,
+            "w": 1.0
         }
     ],
     "m_SerializableAlphaKeys": [
@@ -2219,6 +2213,8 @@
         "m_GuidSerialized": "44a78fe6-65a3-4b0e-98f1-491096488947"
     },
     "m_Name": "AudioTex",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "AudioTex",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
