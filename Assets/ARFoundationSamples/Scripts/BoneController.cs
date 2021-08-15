@@ -9,7 +9,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
     public class BoneController : MonoBehaviour
     {
         // 3D joint skeleton
-        enum JointIndices
+        public enum JointIndices
         {
             Invalid = -1,
             Root = 0, // parent: <none> [-1]
@@ -125,7 +125,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             }
         }
 
-        Transform[] m_BoneMapping = new Transform[k_NumSkeletonJoints];
+        public Transform[] m_BoneMapping = new Transform[k_NumSkeletonJoints];
 
         public void InitializeSkeletonJoints()
         {

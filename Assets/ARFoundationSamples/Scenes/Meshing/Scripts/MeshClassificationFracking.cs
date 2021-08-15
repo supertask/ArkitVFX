@@ -1,3 +1,10 @@
+// AR_FOUNDATION_EDITOR_REMOTE: fix for Editor applied
+#if UNITY_EDITOR
+    #define IS_EDITOR
+#endif
+#undef UNITY_EDITOR
+using ARFoundationRemote.Runtime;
+// AR_FOUNDATION_EDITOR_REMOTE***
 using System;
 using System.Collections.Generic;
 using Unity.Collections;
@@ -13,6 +20,12 @@ using Object = UnityEngine.Object;
 
 namespace UnityEngine.XR.ARFoundation.Samples
 {
+    // AR_FOUNDATION_EDITOR_REMOTE: fix for Editor applied
+    #if IS_EDITOR
+    using XRMeshSubsystem = IXRMeshSubsystem;
+    #endif
+    // AR_FOUNDATION_EDITOR_REMOTE***
+
     public class MeshClassificationFracking : MonoBehaviour
     {
         /// <summary>

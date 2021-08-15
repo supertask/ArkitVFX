@@ -34,7 +34,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             set { m_SkeletonPrefab = value; }
         }
 
-        Dictionary<TrackableId, BoneController> m_SkeletonTracker = new Dictionary<TrackableId, BoneController>();
+        public Dictionary<TrackableId, BoneController> m_SkeletonTracker = new Dictionary<TrackableId, BoneController>();
 
         void OnEnable()
         {

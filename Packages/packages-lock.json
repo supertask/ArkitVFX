@@ -7,6 +7,21 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.kyrylokuzyk.arfoundationremote": {
+      "version": "file:com.kyrylokuzyk.arfoundationremote",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.xr.arfoundation": "3.0.1",
+        "com.unity.xr.arsubsystems": "3.0.0",
+        "com.unity.xr.management": "3.0.4-preview.1",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      }
+    },
     "com.unity.burst": {
       "version": "1.5.4",
       "depth": 1,
@@ -176,14 +191,13 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arfoundation": {
-      "version": "4.2.0-pre.12",
+      "version": "file:com.unity.xr.arfoundation@4.2.0-pre.12",
       "depth": 0,
-      "source": "registry",
+      "source": "embedded",
       "dependencies": {
         "com.unity.xr.arsubsystems": "4.2.0-pre.12",
         "com.unity.xr.management": "4.0.1"
-      },
-      "url": "https://packages.unity.com"
+      }
     },
     "com.unity.xr.arkit": {
       "version": "4.2.0-pre.12",

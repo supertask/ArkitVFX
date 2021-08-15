@@ -38,3 +38,8 @@ sysinfo.txt
 # Builds
 *.apk
 # *.unitypackage
+
+com.kyrylokuzyk.arfoundationremote
+ARFoundationRemoteInstaller
+com.unity.xr.arfoundation@4.2.0-pre.12
+ARFoundationRemoteCompanionApp
