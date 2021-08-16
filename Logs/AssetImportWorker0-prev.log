@@ -1,0 +1,326 @@
+Using pre-set license
+Pro License: NO
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/takahashimigi/Projects/ArkitVFX
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54848
+Successfully changed project path to: /Users/takahashimigi/Projects/ArkitVFX
+/Users/takahashimigi/Projects/ArkitVFX
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 71.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.16f1 (5fa502fca597)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/takahashimigi/Projects/ArkitVFX/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-08-16 07:27:33.947 Unity[10134:208169] (null) preferred device: Apple M1 (high power)
+2021-08-16 07:27:33.947 Unity[10134:208169] Metal devices available: 1
+2021-08-16 07:27:33.947 Unity[10134:208169] 0: Apple M1 (high power)
+2021-08-16 07:27:33.948 Unity[10134:208169] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56134
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000382 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 71.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.041 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2042ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (951ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (559ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (366ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 71.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2970ms)
+		BeginReloadAssembly (288ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (2573ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (413ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (1546ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (1277ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4294 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 295.7 MB.
+System memory in use after: 295.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4741.
+Total: 4.596292 ms (FindLiveObjects: 0.226167 ms CreateObjectMapping: 0.112000 ms MarkObjects: 4.183917 ms  DeleteObjects: 0.073250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dd563f9e40e6d5407147fdfd5c0095') in 0.498606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.836053 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444fbae8865d4d1f46a46cba6fde8803') in 0.004321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 224.501949 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caeac66e48d281aefbb1564a71ee74b1') in 0.009643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.480547 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d28cc0c0eaaaa1bdf6c1b6ea719b90') in 0.006397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.153957 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b27b8403a73a50ca5f0a0c06592cda') in 0.004590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.143156 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a9fa580d7cdf4c04c16355a2054000') in 0.003945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 558.253762 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f9069ce77c5def1a4dd178c3344290') in 0.013166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.394024 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea2eb33065c653ba55e3a14e1ee70f0') in 0.004209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.822825 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5bf982a30b3b163520a657ec0933c5') in 0.004740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.909318 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df0832da8bec2d7494285a2a60d9478') in 0.003952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.521643 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b785597a6f07561813fb663b3bab0f') in 0.003844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.552771 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcf9b22c8a17f2c8f2ae4cce56d834b') in 0.004806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.201572 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81633750e1b578d47d78c9bb6fcfac51') in 0.005632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.034886 seconds.
+  path: Assets/Test/HumanVFX/Scenes/RibbonHuman/Global Volume Profile.asset
+  artifactKey: Guid(70a1b02cdf93742f9bef055a0c53c910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/Scenes/RibbonHuman/Global Volume Profile.asset using Guid(70a1b02cdf93742f9bef055a0c53c910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003a20e48393e959e6dcce048eb10726') in 0.227716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.450893 seconds.
+  path: Assets/Test/HumanVFX/Scenes/RibbonHuman/Global Volume Profile.asset
+  artifactKey: Guid(70a1b02cdf93742f9bef055a0c53c910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/Scenes/RibbonHuman/Global Volume Profile.asset using Guid(70a1b02cdf93742f9bef055a0c53c910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2481cf5258c4d84316b703d4d85474d') in 0.029160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.547152 seconds.
+  path: Assets/Test/HumanVFX/Scenes/RibbonHuman/Global Volume Profile.asset
+  artifactKey: Guid(70a1b02cdf93742f9bef055a0c53c910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/Scenes/RibbonHuman/Global Volume Profile.asset using Guid(70a1b02cdf93742f9bef055a0c53c910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3e6171d787b521440482ae75150937') in 0.003699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.502138 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b443dd782692e21a7781f5a615880e85') in 0.020962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.478160 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d25267ccea7d841490fdb32d2b2da7') in 0.004060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.426890 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdce35cd62439daa75d9f07f935a8a5') in 0.003132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.021762 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99d9bd9ee7c085662495cafeb99edbe') in 0.004190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.562183 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f990e748925b80667fbd1faf6bd066a') in 0.003039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 208.832365 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe31875cf61092fd04c07183fd72572') in 0.003097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.481623 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81cfeccdd0d4e06efdf3f683ea3f1f4') in 0.003510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.226576 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f688b5d1fbd6667cd580998eba075f4') in 0.008905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.991098 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb265177d8ceece2393c4a786a914058') in 0.004707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.342061 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d8f8eafab60287b42820445b949c95') in 0.003084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.099627 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d24f0195e6c58f5fbfb330975f387d') in 0.005204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.527192 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de4aeb083d6ef0232824c84f4fa1be0') in 0.003154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.156601 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b680eea8e4b4c7be8facfb9f9e6342') in 0.003220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.809260 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae076628183fe75103499655a74a543') in 0.003060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.453917 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65cfb6738fabaf0cef3b2ff60e1aff2') in 0.003447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.595082 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17e15dc48ff1b8ac67c22353047ac8a') in 0.002984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 293.802665 seconds.
+  path: Assets/Test/HumanVFX/VFX/Ribbon.vfx
+  artifactKey: Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/HumanVFX/VFX/Ribbon.vfx using Guid(3e137f52b5ef6406881f837b4cba6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63448b9abd5ff7baa732ecf7b639595') in 0.012127 seconds 
