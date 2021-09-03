@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/ARFoundationSamples/Scenes/SimpleAR/SimpleAR.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/Test/HumanVFX/Scenes/HumanVFX.unity
+    path: Assets/Test/HumanVFX/Scene/HumanVFX.unity
     guid: c803af90e82e51941858ffacfeff8741
-  - enabled: 1
-    path: Assets/Test/HumanVFX/Scenes/TrackingBeta.unity
+  - enabled: 0
+    path: Assets/Test/HumanVFX/Scene/TrackingBeta.unity
     guid: bbe3dede072fd42dba8f3aad211de71a
+  - enabled: 1
+    path: Assets/Test/HumanVFX/Scene/RibbonHuman.unity
+    guid: 23cfeeb88c45a4f3b8740e3c146bb2f5
   m_configObjects:
     AR Foundation RemoteARFoundationRemoteLoaderSettings: {fileID: 11400000, guid: c6beab836d5b54df8b88e1be517bf156,
       type: 2}
