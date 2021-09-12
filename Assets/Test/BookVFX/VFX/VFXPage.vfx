@@ -7776,7 +7776,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"frames":[{"time":0.0,"value":1.0141639709472657,"inTangent":0.0,"outTangent":0.0,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":1.0,"value":0.0,"inTangent":0.0,"outTangent":0.0,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
+      m_SerializableObject: '{"frames":[{"time":-0.0041656494140625,"value":1.0141639709472657,"inTangent":-0.014936846680939198,"outTangent":-0.014936846680939198,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.34364715218544009,"value":1.3358712196350098,"inTangent":-0.044951748102903369,"outTangent":-0.044951748102903369,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.7495299577713013,"value":0.6642946600914002,"inTangent":-2.6981468200683595,"outTangent":-2.6981468200683595,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":1.0,"value":0.0,"inTangent":-2.0668141841888429,"outTangent":-2.0668141841888429,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
     m_Space: 2147483647
   m_Property:
     name: Size

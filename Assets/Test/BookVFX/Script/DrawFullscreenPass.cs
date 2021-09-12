@@ -28,29 +28,34 @@ namespace UnityEngine.Rendering.Universal
             RenderTextureDescriptor blitTargetDescriptor = renderingData.cameraData.cameraTargetDescriptor;
             blitTargetDescriptor.depthBufferBits = 0;
 
-            isSourceAndDestinationSameTarget = settings.sourceType == settings.destinationType &&
-                (settings.sourceType == BufferType.CameraColor || settings.sourceTextureId == settings.destinationTextureId);
+            //isSourceAndDestinationSameTarget = settings.sourceType == settings.destinationType &&
+            //    (settings.sourceType == BufferType.CameraColor || settings.sourceTextureId == settings.destinationTextureId);
 
             var renderer = renderingData.cameraData.renderer;
 
-            if (settings.sourceType == BufferType.CameraColor)
-            {
+            //if (settings.sourceType == BufferType.CameraColor)
+            //{
+            //    Debug.Log("settings.sourceType == BufferType.CameraColor");
                 sourceId = -1;
                 source = renderer.cameraColorTarget;
-            }
+            //}
+            /*
             else
             {
                 sourceId = Shader.PropertyToID(settings.sourceTextureId);
                 cmd.GetTemporaryRT(sourceId, blitTargetDescriptor, filterMode);
                 source = new RenderTargetIdentifier(sourceId);
             }
+            */
 
-            if (isSourceAndDestinationSameTarget)
-            {
+            //if (isSourceAndDestinationSameTarget)
+            //{
+            //    Debug.Log("isSourceAndDestinationSameTarget");
                 destinationId = temporaryRTId;
                 cmd.GetTemporaryRT(destinationId, blitTargetDescriptor, filterMode);
                 destination = new RenderTargetIdentifier(destinationId);
-            }
+            //}
+            /*
             else if (settings.destinationType == BufferType.CameraColor)
             {
                 destinationId = -1;
@@ -58,10 +63,11 @@ namespace UnityEngine.Rendering.Universal
             }
             else
             {
+                Debug.Log("settings.destinationType == BufferType.CameraColor");
                 destinationId = Shader.PropertyToID(settings.destinationTextureId);
                 cmd.GetTemporaryRT(destinationId, blitTargetDescriptor, filterMode);
                 destination = new RenderTargetIdentifier(destinationId);
-            }
+            }*/
         }
 
         /// <inheritdoc/>
@@ -70,15 +76,18 @@ namespace UnityEngine.Rendering.Universal
             CommandBuffer cmd = CommandBufferPool.Get(m_ProfilerTag);
 
             // Can't read and write to same color target, create a temp render target to blit. 
-            if (isSourceAndDestinationSameTarget)
-            {
+            //if (isSourceAndDestinationSameTarget)
+            //{
+                //Debug.Log("settings.blitMaterialPassIndex: " + settings.blitMaterialPassIndex);
                 Blit(cmd, source, destination, settings.blitMaterial, settings.blitMaterialPassIndex);
                 Blit(cmd, destination, source);
-            }
+            //}
+            /*
             else
             {
                 Blit(cmd, source, destination, settings.blitMaterial, settings.blitMaterialPassIndex);
             }
+            */
 
             context.ExecuteCommandBuffer(cmd);
             CommandBufferPool.Release(cmd);

@@ -26,6 +26,7 @@ namespace UnityEngine.Rendering.Universal
 
         public override void Create()
         {
+            Debug.Log(name);
             blitPass = new DrawFullscreenPass(name);
         }
 
