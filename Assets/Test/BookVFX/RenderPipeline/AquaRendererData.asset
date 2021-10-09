@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+  m_Name: AquaRendererData
+  m_EditorClassIdentifier: 
+  m_RendererFeatures:
+  - {fileID: 4977752964388678110}
+  - {fileID: 8341121164716424909}
+  m_RendererFeatureMap: dee908a6f2871445cd3e6a93819dc173
+  postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
+  xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
+  shaders:
+    blitPS: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    copyDepthPS: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    screenSpaceShadowPS: {fileID: 0}
+    samplingPS: {fileID: 4800000, guid: 04c410c9937594faa893a11dceb85f7e, type: 3}
+    stencilDeferredPS: {fileID: 4800000, guid: e9155b26e1bc55942a41e518703fe304, type: 3}
+    fallbackErrorPS: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    materialErrorPS: {fileID: 4800000, guid: 5fd9a8feb75a4b5894c241777f519d4e, type: 3}
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_DefaultStencilState:
+    overrideStencilState: 0
+    stencilReference: 0
+    stencilCompareFunction: 8
+    passOperation: 2
+    failOperation: 0
+    zFailOperation: 0
+  m_ShadowTransparentReceive: 1
+  m_RenderingMode: 0
+  m_AccurateGbufferNormals: 0
+--- !u!114 &4977752964388678110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 684e3957e39004440a0c1ff38df75075, type: 3}
+  m_Name: Aqua
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  renderPassEvent: 300
+  settings:
+    aquaMaterial: {fileID: 2100000, guid: fa8f2579388b8473e9b9b98f66322e18, type: 2}
+    NoiseTexture: {fileID: 2800000, guid: 1fdd342ef1cc0427280fcfe8ae014731, type: 3}
+    opacity: 1
+    edgeColor: {r: 0, g: 0, b: 0, a: 1}
+    edgeContrast: 1.2
+    fillColor: {r: 1, g: 1, b: 1, a: 1}
+    blurWidth: 1.35
+    blurFrequency: 0.5
+    hueShift: 0.1
+    interval: 1.25
+    iteration: 20
+--- !u!114 &8341121164716424909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d716bf73b3394d5c87e7ee63e8733bd, type: 3}
+  m_Name: AbstractKuwahara
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  renderPassEvent: 500
+  settings:
+    abstractKuwaharaShader: {fileID: 4800000, guid: 0fe95c934f4014ad9bfd4e2250c487cf,
+      type: 3}
+    sobelLineColor: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 0.70980394}
+    kuwaharaRadius: 0
+    sobelDeltaX: 0.005
+    sobelDeltaY: 0.015
+    colorfulFractalShader: {fileID: 4800000, guid: aebcc382a8606a646b784a4318a99279,
+      type: 3}
+    debugColorfulFractal: 0
+    colorfulFractalLod: 8
+    colors:
+    - {r: 1, g: 0, b: 0, a: 0}
+    - {r: 0, g: 1, b: 0, a: 0}
+    - {r: 0, g: 0, b: 1, a: 0}
+    - {r: 0, g: 0, b: 0, a: 0.39607844}
+    timeShiftScale: 0.003
+    tiling: {x: 2, y: 5, z: 60, w: 0}
+    offsetX: {x: 3, y: 13, z: 29, w: 43}
+    offsetY: {x: 7, y: 19, z: 37, w: 53}
+    gain: {x: 2, y: 0.5, z: 0, w: 0}

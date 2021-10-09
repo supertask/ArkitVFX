@@ -73,8 +73,6 @@ public class AquaRenderPassFeature : ScriptableRendererFeature
         private void Render(CommandBuffer buffer, ref RenderingData renderingData)
         {
             var material = settings.aquaMaterial;
-            var bfreq = Mathf.Exp((settings.blurFrequency - 0.5f) * 6);
-
             /*
             settings.aquaMaterial.SetVector(ShaderIDs.EffectParams1,
                 new Vector4(settings.opacity, settings.interval, settings.blurWidth, bfreq));
